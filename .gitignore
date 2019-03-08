@@ -19,3 +19,5 @@ jenkins_jobs/versioninfo
 cover/
 jenkins-job-builder
 testr_subunit_log
+.venv/
+.eggs/
