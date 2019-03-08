@@ -4,7 +4,7 @@ if [ ! -d ".venv" ]; then
   set -x 
   pip install --user jenkins-job-builder
   virtualenv .venv
-  source .venv/bin/activate
+  source ./venv/bin/activate
   pip install -r test-requirements.txt -e .
   set +x
 else
